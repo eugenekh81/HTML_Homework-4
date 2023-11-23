@@ -1,0 +1,24 @@
+{
+  "name": "HTML_Homework-4",
+  "version": "1.0.0",
+  "description": "- Створи репозиторій markup-hw-04.\r - Склонуй створений репозиторій і скопіюй в нього файли попередньої роботи.\r - Додай стилі для геометрії (ширини, відступи, поля і рамки) і позиціонування контенту за допомогою Flexbox для сторінок макета **[домашнього завдання #4](https://www.figma.com/file/PFVOE0l8evZPWdKBAuvdC6/Web-Studio-(Version-2.1)-(Copy)?node-id=1%3A493)**.\r - Для генерації SVG-спрайту використовуй сервіс **[Icomoon](https://icomoon.io/)**.\r - Для оптимізації створеного SVG-спрайту використовуй сервіс **[svgomg](https://jakearchibald.github.io/svgomg/)**.\r - Налаштуй GitHub Pages і додай посилання на живу сторінку в шапку GitHub-репозиторія.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RogueMoore/HTML_Homework-4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RogueMoore/HTML_Homework-4/issues"
+  },
+  "homepage": "https://github.com/RogueMoore/HTML_Homework-4#readme",
+  "dependencies": {
+    "modern-normalize": "^2.0.0"
+  }
+}

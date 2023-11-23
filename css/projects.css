@@ -1,0 +1,40 @@
+.projects__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+
+  list-style: none;
+}
+
+.projects__item-image {
+  vertical-align: top;
+
+  width: 370px;
+  height: 294px;
+}
+
+.projects__item-content {
+  padding: 20px 24px;
+
+  border: 1px solid #eee;
+  border-top: none;
+}
+
+.projects__content-name {
+  font-size: 18px;
+  font-weight: 700;
+
+  line-height: 36px;
+  letter-spacing: 1.08px;
+
+  color: var(--secondary-color);
+}
+
+.projects__content-text {
+  font-size: 16px;
+
+  line-height: 30px;
+  letter-spacing: 0.48px;
+
+  color: var(--accent-color);
+}
