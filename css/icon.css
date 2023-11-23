@@ -1,0 +1,16 @@
+.contacts__icon {
+  margin-right: 10px;
+
+  transition: 0.3s inherit;
+  fill: var(--accent-color);
+}
+
+.icon__envelope {
+  width: 16px;
+  height: 12px;
+}
+
+.icon__smartphone {
+  width: 10px;
+  height: 16px;
+}
