@@ -14,7 +14,10 @@
 }
 
 .features__item-rectangle {
-  padding: 25px 100px 25px 100px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
   border-radius: 4px;
 

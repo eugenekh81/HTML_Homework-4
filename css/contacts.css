@@ -1,6 +1,17 @@
 .contacts {
   display: flex;
+  align-items: stretch;
   gap: 40px;
+
+
+  height: 100%;
+}
+
+.contacts__icon {
+  margin: 0 10px 0 0;
+
+  transition: 0.3s inherit;
+  fill: var(--accent-color);
 }
 
 .contacts__link {
@@ -13,12 +24,11 @@
 
   color: var(--accent-color);
 
-  height: 80px;
-
   text-decoration: none;
 
-  transition: 0.3s;
+  transition: color 0.3s linear;
 }
+
 
 .contacts__link-footer {
   display: flex;
@@ -31,7 +41,7 @@
   letter-spacing: 0.42px;
   text-decoration: none;
 
-  transition: 0.3s;
+  transition: all 0.3s linear;
 }
 
 .contacts__link:focus,
@@ -39,4 +49,8 @@
 .contacts__link:hover,
 .contacts__link-footer:hover {
   color: var(--main-color);
+}
+
+.contacts__link:hover::before {
+  background-color: var(--main-color);
 }
