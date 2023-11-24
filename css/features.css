@@ -13,8 +13,21 @@
   width: 270px;
 }
 
+.features__item-rectangle {
+  padding: 25px 100px 25px 100px;
+
+  border-radius: 4px;
+
+  background-color: var(--section-color);
+}
+
+.features__icon {
+  width: 70px;
+  height: 70px;
+}
+
 .features__item-title {
-  margin: 0 0 10px;
+  margin: 30px 0 10px;
 
   font-size: 14px;
   font-weight: 700;

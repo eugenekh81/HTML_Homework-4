@@ -5,12 +5,12 @@
   fill: var(--accent-color);
 }
 
-.icon__envelope {
+.icon__contacts-envelope {
   width: 16px;
   height: 12px;
 }
 
-.icon__smartphone {
+.icon__contacts-smartphone {
   width: 10px;
   height: 16px;
 }
