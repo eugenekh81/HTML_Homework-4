@@ -25,3 +25,8 @@
 
   max-width: max-content;
 }
+
+.footer-content {
+  display: flex;
+  align-items: center;
+}
