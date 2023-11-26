@@ -1,16 +1,14 @@
-.icon__contacts-envelope {
+.icon-envelope {
   width: 16px;
   height: 12px;
 }
 
-.icon__contacts-smartphone {
+.icon-smartphone {
   width: 10px;
   height: 16px;
 }
 
-/* .icon--insta {
- width: 20px;
- height: 20px;
-
-fill: #afb1b8;
-} */
+.icons__features {
+  width: 70px;
+  height: 70px;
+}

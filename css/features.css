@@ -13,7 +13,7 @@
   width: 270px;
 }
 
-.features__item-rectangle {
+.features__icon-background {
   height: 120px;
   display: flex;
   justify-content: center;
@@ -25,8 +25,7 @@
 }
 
 .features__icon {
-  width: 70px;
-  height: 70px;
+
 }
 
 .features__item-title {
