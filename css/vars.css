@@ -1,8 +1,8 @@
 :root {
-  --secondary-color: #212121;
-  --main-color: #2196f3;
-  --accent-color: #757575;
-  --background-color: #2f303a;
-  --filter-color: #f5f4fa;
-  --section-color: #f5f4fa;
+  --main-blue-color: #2196f3;
+  --text-grey-color: #757575;
+  --text-black-color: #212121;
+  --background-black-color: #2f303a;
+  --background-grey-color: #f5f4fa;
+  --svg-grey-color: #afb1b8;
 }

@@ -1,8 +1,6 @@
 .social-icons {
   display: flex;
   justify-content: center;
-
-  margin: 16px 0 0;
 }
 
 .social-icons__list {
@@ -19,11 +17,11 @@
   height: 44px;
   border-radius: 50%;
 
-  transition: all 0.2s linear;
+  transition: background-color 0.2s linear;
 }
 
 .social-icons__item:hover {
-  background-color: var(--main-color);
+  background-color: var(--main-blue-color);
 }
 
 .social-icons__item:hover .social-icons__svg {
@@ -42,9 +40,9 @@
   width: 20px;
   height: 20px;
 
-  transition: 0.2s linear;
+  transition: color 0.2s linear;
 
-  color: #afb1b8;
+  color: var(--svg-grey-color);
 }
 
 .social__title {
@@ -73,5 +71,5 @@
 }
 
 .social-icons__item--footer:hover {
-  background-color: var(--main-color);
+  background-color: var(--main-blue-color);
 }

@@ -2,12 +2,10 @@
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
-
-  list-style: none;
 }
 
 .projects__item {
-  transition: 0.3s linear;
+  transition: box-shadow 0.3s linear;
 }
 
 .projects__item-image {
@@ -31,7 +29,7 @@
   line-height: 36px;
   letter-spacing: 1.08px;
 
-  color: var(--secondary-color);
+  color: var(--text-black-color);
 }
 
 .projects__content-text {
@@ -40,7 +38,7 @@
   line-height: 30px;
   letter-spacing: 0.48px;
 
-  color: var(--accent-color);
+  color: var(--text-grey-color);
 }
 
 .projects__item:hover {

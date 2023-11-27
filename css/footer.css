@@ -1,7 +1,7 @@
 .footer {
   padding: 60px 0;
 
-  background-color: var(--background-color);
+  background-color: var(--background-black-color);
 }
 
 .footer__content {

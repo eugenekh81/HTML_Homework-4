@@ -1,12 +1,10 @@
 .team--grey {
-  background-color: var(--section-color);
+  background-color: var(--background-grey-color);
 }
 
 .team__list {
   display: flex;
   gap: 30px;
-
-  list-style: none;
 }
 
 .team__item {
@@ -32,19 +30,20 @@
   font-weight: 500;
   letter-spacing: 0.48px;
 
-  color: var(--secondary-color);
+  color: var(--text-black-color);
 }
 
 .team__content-role {
+  margin: 0 0 16px;
+
   text-align: center;
   font-size: 16px;
   letter-spacing: 0.48px;
 
-  color: var(--accent-color);
+  color: var(--text-grey-color);
 }
 .team__item-content {
   padding: 30px 0;
 
   background: #fff;
 }
-

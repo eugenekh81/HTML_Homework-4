@@ -3,15 +3,13 @@
   align-items: stretch;
   gap: 40px;
 
-
   height: 100%;
 }
 
 .contacts__icon {
   margin: 0 10px 0 0;
 
-  transition: 0.3s inherit;
-  fill: var(--accent-color);
+  fill: var(--text-grey-color);
 }
 
 .contacts__link {
@@ -22,13 +20,12 @@
   font-weight: 500;
   letter-spacing: 0.28px;
 
-  color: var(--accent-color);
+  color: var(--text-grey-color);
 
   text-decoration: none;
 
   transition: color 0.3s linear;
 }
-
 
 .contacts__link-footer {
   display: flex;
@@ -48,9 +45,9 @@
 .contacts__link-footer:focus,
 .contacts__link:hover,
 .contacts__link-footer:hover {
-  color: var(--main-color);
+  color: var(--main-blue-color);
 }
 
 .contacts__link:hover::before {
-  background-color: var(--main-color);
+  background-color: var(--main-blue-color);
 }

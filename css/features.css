@@ -1,12 +1,6 @@
-.features--pd-btm-0 {
-  padding-bottom: 0;
-}
-
 .features__list {
   display: flex;
   gap: 30px;
-
-  list-style: none;
 }
 
 .features__item {
@@ -14,6 +8,8 @@
 }
 
 .features__icon-background {
+  margin: 0 0 30px;
+
   height: 120px;
   display: flex;
   justify-content: center;
@@ -21,18 +17,18 @@
 
   border-radius: 4px;
 
-  background-color: var(--section-color);
+  background-color: var(--background-grey-color);
 }
 
 .features__item-title {
-  margin: 30px 0 10px;
+  margin: 0 0 10px;
 
   font-size: 14px;
   font-weight: 700;
   letter-spacing: 0.42px;
   text-transform: uppercase;
 
-  color: var(--secondary-color);
+  color: var(--text-black-color);
 }
 
 .features__item-text {
@@ -41,5 +37,5 @@
   line-height: 24px;
   letter-spacing: 0.42px;
 
-  color: var(--accent-color);
+  color: var(--text-grey-color);
 }

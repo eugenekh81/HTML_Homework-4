@@ -7,10 +7,10 @@
   width: 170px;
   height: 92px;
 
-  border: 1px solid #afb1b8;
+  border: 1px solid var(--svg-grey-color);
   border-radius: 4px;
 
-  transition: 0.3s;
+  transition: border-color 0.3s linear;
 }
 
 .client-icons__link {
@@ -25,16 +25,15 @@
   width: 106px;
   height: 60px;
 
-  color: #afb1b8;
+  color: var(--svg-grey-color);
 
-  transition: 0.3s;
+  transition: color 0.3s linear;
 }
 
-
 .client-icons__item:hover {
-  border-color: var(--main-color);
+  border-color: var(--main-blue-color);
 }
 
 .client-icons__item:hover .client-icons__svg {
-  color: var(--main-color);
+  color: var(--main-blue-color);
 }
