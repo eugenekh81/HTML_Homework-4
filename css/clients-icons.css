@@ -30,6 +30,7 @@
   transition: 0.3s;
 }
 
+
 .client-icons__item:hover {
   border-color: var(--main-color);
 }

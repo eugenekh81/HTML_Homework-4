@@ -19,13 +19,11 @@
   height: 44px;
   border-radius: 50%;
 
-  outline: 1px solid #fff;
-  transition: all 0.3s linear;
+  transition: all 0.2s linear;
 }
 
 .social-icons__item:hover {
   background-color: var(--main-color);
-  outline: 1px solid var(--main-color);
 }
 
 .social-icons__item:hover .social-icons__svg {
@@ -44,18 +42,12 @@
   width: 20px;
   height: 20px;
 
-  transition: 0.3s linear;
+  transition: 0.2s linear;
 
   color: #afb1b8;
 }
 
-.social-social {
-  margin: 0 0 0 70px;
-
-  height: 80px;
-}
-
-.social-title {
+.social__title {
   margin: 0 0 20px;
   color: #fff;
   font-size: 14px;
@@ -64,24 +56,11 @@
   text-transform: uppercase;
 }
 
-.social-icons__list--footer {
-  display: flex;
-}
-
-.social-icons__item--footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  height: 44px;
-  width: 44px;
-
+.social-icons__link--footer {
   background-color: rgba(255, 255, 255, 0.1);
 
   outline: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 50%;
-
-  transition: 0.3s linear;
 }
 
 .social-icons__svg--footer {

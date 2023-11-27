@@ -6,6 +6,10 @@
   list-style: none;
 }
 
+.projects__item {
+  transition: 0.3s linear;
+}
+
 .projects__item-image {
   vertical-align: top;
 
@@ -37,4 +41,9 @@
   letter-spacing: 0.48px;
 
   color: var(--accent-color);
+}
+
+.projects__item:hover {
+  box-shadow: 1px 4px 6px 0px rgba(0, 0, 0, 0.16),
+    0px 4px 4px 0px rgba(0, 0, 0, 0.06), 0px 1px 1px 0px rgba(0, 0, 0, 0.12);
 }

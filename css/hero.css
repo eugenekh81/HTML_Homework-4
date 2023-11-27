@@ -5,7 +5,12 @@
   flex-direction: column;
   align-items: center;
 
-  background: linear-gradient(90deg, rgba(47, 48, 58, 0.4) 0%, rgba(47, 48, 58, 0.4) 100%), url('../images/svg/hero/dd953143a8a4d9f86ec8d71afc0e8103.jpg'), var(--background-color);
+  background: linear-gradient(
+      90deg,
+      rgba(47, 48, 58, 0.4) 0%,
+      rgba(47, 48, 58, 0.4) 100%
+    ),
+    url("../images/hero/hero_image.jpg"), var(--background-color);
 
   background-repeat: no-repeat;
   background-size: 100%, cover, 100%;
