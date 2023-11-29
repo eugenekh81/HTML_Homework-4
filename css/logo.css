@@ -8,16 +8,6 @@
 
   letter-spacing: 0.78px;
   text-decoration: none;
-
-  height: 80px;
-}
-
-.logo--footer {
-  margin: 0 0 28px;
-
-  display: inline-flex;
-
-  height: 100%;
 }
 
 .logo__web {

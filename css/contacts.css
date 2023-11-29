@@ -27,18 +27,11 @@
   transition: color 0.3s linear;
 }
 
-.contacts__link-footer {
+.contacts__link--footer {
   display: flex;
-
   color: rgba(255, 255, 255, 0.6);
-
-  font-size: 14px;
-
-  line-height: 16px;
+  line-height: 20px;
   letter-spacing: 0.42px;
-  text-decoration: none;
-
-  transition: all 0.3s linear;
 }
 
 .contacts__link:focus,

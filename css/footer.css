@@ -6,33 +6,28 @@
 
 .footer__content {
   display: flex;
+  flex-direction: row;
+  gap: 94px;
+}
+
+.footer__info {
+  display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 20px;
 }
 
 .address {
   color: #fff;
 
   font-size: 14px;
-  line-height: 16px;
+  line-height: 20px;
   letter-spacing: 0.42px;
 }
 
 .footer__contacts {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 9px;
 
   max-width: max-content;
-}
-
-.footer-content {
-  display: flex;
-  align-items: center;
-}
-
-.footer__social {
-  margin: 0 0 0 70px;
-
-  height: 80px;
 }
